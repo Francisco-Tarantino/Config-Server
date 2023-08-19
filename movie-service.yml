@@ -1,7 +1,7 @@
 server:
   port: ${PORT:${SERVER_PORT:0}}
 
-idRandom: {$random.value}
+idRandom: ${random.value}
 
 spring:
   application:

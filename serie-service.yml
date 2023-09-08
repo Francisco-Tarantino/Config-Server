@@ -15,7 +15,7 @@ spring:
     enabled: true
 
 queue:
-  persona:
+  serie:
     name: SerieQueue
 
 message: Serie UP

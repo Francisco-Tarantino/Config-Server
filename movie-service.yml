@@ -15,11 +15,11 @@ spring:
   zipkin:
     base-url: http://localhost:9411/
     enabled: true
-  queue:
-    movie:
-      name: MovieQueue
+queue:
+  movie:
+    name: MovieQueue
 
-  message: Movie UP
+message: Movie UP
     
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver

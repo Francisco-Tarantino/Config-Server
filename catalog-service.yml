@@ -20,7 +20,7 @@ queue:
   movie:
     name: MovieQueue
    
-message: Serie UP
+message: Serie & Movie UP
 
 eureka:
   client:

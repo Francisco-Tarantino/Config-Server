@@ -18,7 +18,7 @@ queue:
   serie:
     name: SerieQueue
   movie:
-   name: MovieQueue
+    name: MovieQueue
    
 message: Serie UP
 

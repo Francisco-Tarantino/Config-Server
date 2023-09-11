@@ -18,6 +18,8 @@ spring:
   queue:
     movie:
       name: MovieQueue
+
+  message: Movie UP
     
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver

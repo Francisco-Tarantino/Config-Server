@@ -17,6 +17,8 @@ zipkin:
 queue:
   serie:
     name: SerieQueue
+  movie:
+    name: MovieQueue
 
 message: Serie UP
 

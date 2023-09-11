@@ -6,6 +6,19 @@ idRandom: ${random.value}
 spring:
   application:
     name: movie-service
+
+  rabbitmq:
+    username: guest
+    password: guest
+    localhost: localhost
+    port: 5672
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
+  queue:
+    movie:
+      name: MovieQueue
+    
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3370/movie-dev

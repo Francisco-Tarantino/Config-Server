@@ -17,11 +17,9 @@ zipkin:
 queue:
   serie:
     name: SerieQueue
-
-queue1:
   movie:
-    name: MovieQueue
-
+   name: MovieQueue
+   
 message: Serie UP
 
 eureka:

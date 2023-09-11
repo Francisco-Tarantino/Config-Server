@@ -19,14 +19,7 @@ spring:
   data:
     mongodb:
       database: test
-      port: 27017
-
-queue:
-  serie:
-    name: SerieQueue
-
-message: Serie UP
-    
+      port: 27017  
 
 eureka:
   client:

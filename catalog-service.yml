@@ -17,6 +17,8 @@ zipkin:
 queue:
   serie:
     name: SerieQueue
+
+queue1:
   movie:
     name: MovieQueue
 

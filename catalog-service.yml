@@ -59,7 +59,7 @@ management:
 resilience4j:
   circuitbreaker:
     instances:
-      students:
+      movie-service:
         slidingWindowType: COUNT_BASED
         slidingWindowSize: 5
         failureRateThreshold: 50
@@ -71,7 +71,7 @@ resilience4j:
 
   retry:
     instances:
-      students:
+      movie-service:
         waitDuration: 1000
         maxAttempts: 3
         retryExceptions:

@@ -48,7 +48,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: circuitbreakers, circuitbreakerevents, health, info
+        include: '*'
   health:
     circuitbreakers:
       enabled: true
@@ -59,21 +59,21 @@ management:
 resilience4j:
   circuitbreaker:
     instances:
-      subscription:
-        allowHealthIndicatorToFail: false
-        registerHealthIndicator: true
+      students:
         slidingWindowType: COUNT_BASED
         slidingWindowSize: 5
         failureRateThreshold: 50
         waitDurationInOpenState: 15000
         permittedNumberOfCallsInHalfOpenState: 3
+        registerHealthIndicator: true
+        allowHealthIndicatorToFail: false
         automaticTransitionFromOpenToHalfOpenEnabled: true
 
   retry:
     instances:
-      subscription:
-        maxAttempts: 3
+      students:
         waitDuration: 1000
+        maxAttempts: 3
         retryExceptions:
           - feign.FeignException$InternalServerError
 

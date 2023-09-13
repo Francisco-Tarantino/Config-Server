@@ -44,7 +44,6 @@ eureka:
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
 
-# Configuración de actuator
 management:
   endpoints:
     web:
